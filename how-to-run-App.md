@@ -3,13 +3,13 @@
 I. Make database on Postgre or mysql etc
 
 -- Database Config --
-Penggunaan migration dan seeder untuk membuat Database tabel dan isinya.
+migration dan seeder untuk membuat Database tabel dan isinya.
 
 1. Go to config database.js change name database etc.
 2. Cara migrasi: npm run db:migrate
 3. Cara seeding: npm run db:seed
 
-II. Ketik perintah di terminal "npm run start"
+II. Type on terminal "npm run start"
 
 ## Endpoints
 
@@ -29,6 +29,5 @@ In this repository have 2 category Endpoints : authentication dan CRUD Car.
 - Edit car = http://localhost:3001/api/v1/car/edit/:id method PUT (access only admin or superadmin)
 - Delete car = http://localhost:3001/api/v1/car/delete/:id method DELETE (access only admin or superadmin)
 
-# Documentation REST on Postman
-
-https://documenter.getpostman.com/view/5808389/2s84DkUjjW
+# Documentation REST on Postman and Swagger
+On Progress
